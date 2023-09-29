@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+body {
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #6b94b6;
+}
+.cabecalho {
+    background-color: #fcc47bec;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.cabecalho_titulo {
+    color: #184570;
+    font-family: 'Open Sans', sans-serif;
+}
+.cabecalho_opcoes li{
+    font-family: 'Open Sans', sans-serif;
+     font-size: medium;
+    display: flex; 
+    justify-content: space-between;
+}
+.cabecalho_opcoes {
+    display: flex;
+    color: #184570;
+}
+ul a {
+    margin-left: 10px;
+    color: #184570;
+}
+#conteudo{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.conteudo_funcoes h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.conteudo_funcoes p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+.conteudo_funcoes strong{
+    color: #d4fdeb;
+}
+.icons_box{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 40px;
+}
+.foto_perfil{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.footer {
+    font-family: 'Open Sans', sans-serif;
+    background-color:#a3482d9c;
+    color: #910202d7;
+    display: flex;
+    justify-content: right;
+    height: 22px; 
+    
+    
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+
+}
